@@ -23,3 +23,10 @@
 /nbdist/
 /.nb-gradle/
 /build/
+
+
+#vscode
+
+.vscode/settings.json
+.vscode
+/.vscode
