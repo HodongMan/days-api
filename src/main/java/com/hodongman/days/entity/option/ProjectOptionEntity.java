@@ -24,5 +24,9 @@ public class ProjectOptionEntity extends BaseEntity {
 
     private Date alarm;
 
-    // 생성자 작업해야함..
+    public ProjectOptionEntity(Boolean is_active, Date alarm) {
+        
+        this.is_active  = is_active;
+        this.alarm      = alarm;
+    }
 }

@@ -27,5 +27,11 @@ public class ProjectEntity extends BaseEntity {
 
     private Date end_date;
 
-    //생성자 작업해야함....
+    public ProjectEntity(String title, String description, Date start_date, Date end_date) {
+
+        this.title          = title;
+        this.description    = description;
+        this.start_date     = start_date;
+        this.end_date       = end_date;
+    }
 }

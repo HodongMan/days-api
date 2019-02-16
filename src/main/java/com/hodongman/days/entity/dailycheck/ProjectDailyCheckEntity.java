@@ -26,5 +26,10 @@ public class ProjectDailyCheckEntity extends BaseEntity {
 
     private String description;
 
-    // 생성자 작업해야함...
+    public ProjectDailyCheckEntity(Date date, Boolean is_cleared, String description) {
+
+        this.date           = date;
+        this.is_cleared     = is_cleared;
+        this.description    = description;
+    }
 }
